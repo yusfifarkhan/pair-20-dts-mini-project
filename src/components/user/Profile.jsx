@@ -28,7 +28,7 @@ const Profile = () => {
         <Link to="/login">
           <ProfileIcon
             name={"MamaZali"}
-            avatar={"https://picsum.photos/350"}
+            avatar={"https://picsum.photos/id/1015/200/300"}
           />
         </Link>
         <ProfileIcon name={"add new"} avatar={"https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"} />
