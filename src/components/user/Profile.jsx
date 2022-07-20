@@ -31,7 +31,9 @@ const Profile = () => {
             avatar={"https://picsum.photos/id/1015/300"}
           />
         </Link>
-        <ProfileIcon name={"add new"} avatar={"https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"} />
+        <Link to="/register">
+          <ProfileIcon name={"add new"} avatar={"https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"} />
+        </Link>
       </div>
     </div>
   );
