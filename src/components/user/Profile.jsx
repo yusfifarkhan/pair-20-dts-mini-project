@@ -5,32 +5,33 @@ import ProfileIcon from "./ProfileIcon";
 const Profile = () => {
   return (
     <div className="w-4/5 mt-8">
-      <div className="mb-4 font-semibold text-xl uppercase">Profile Page</div>
+      <div className="mb-4 font-semibold text-xl uppercase">User List Page</div>
       <div className="grid grid-cols-6 gap-4">
         <Link to="/login">
           <ProfileIcon
             name={"Fakhri"}
-            avatar={"http://placeimg.com/640/360/any"}
+            avatar={"https://picsum.photos/300"}
           />
         </Link>
         <Link to="/login">
           <ProfileIcon
             name={"Yusfi"}
-            avatar={"http://placeimg.com/640/360/any"}
+            avatar={"https://picsum.photos/400"}
           />
         </Link>
         <Link to="/login">
           <ProfileIcon
             name={"PapaZalo"}
-            avatar={"http://placeimg.com/640/360/any"}
+            avatar={"https://picsum.photos/250"}
           />
         </Link>
         <Link to="/login">
           <ProfileIcon
             name={"MamaZali"}
-            avatar={"http://placeimg.com/640/360/any"}
+            avatar={"https://picsum.photos/350"}
           />
         </Link>
+        <ProfileIcon name={"add new"} avatar={"https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"} />
       </div>
     </div>
   );
