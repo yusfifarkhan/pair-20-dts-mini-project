@@ -5,7 +5,7 @@ const tmdbInstance = axios.create({
   baseURL: "https://api.themoviedb.org/3",
   params: {
     // TODO: Jangan lupa masukkan API_KEY yang benarnya di sini yah !
-    api_key: "process.env.REACT_APP_TMDB_KEY",
+    api_key: process.env.REACT_APP_TMDB_KEY,
   },
 });
 
