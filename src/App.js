@@ -16,6 +16,7 @@ import SelectedMovie from "./containers/SelectedMovie";
 import LoginOrRegister from "./containers/LoginOrRegister";
 import Missing from "./components/app/Missing";
 import Denied from "./components/app/Denied";
+import Profile from "./components/user/Profile";
 
 function App() {
   const [movies, setMovies] = useState([]);
@@ -51,6 +52,14 @@ function App() {
             element={
               <ProtectedComponent>
                 <SelectedMovie />
+              </ProtectedComponent>
+            }
+          />
+          <Route
+            path="/profile"
+            element={
+              <ProtectedComponent>
+                <Profile />
               </ProtectedComponent>
             }
           />

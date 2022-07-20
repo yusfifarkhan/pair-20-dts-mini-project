@@ -9,7 +9,7 @@ const User = () => {
 
   return (
     <ul className="flex gap-4 text-black font-semibold">
-      <li className="flex">
+      <li>
         {user ? (
           <button
             className={`w-full px-4 py-2 bg-slate-50 rounded-md hover:font-semibold`}
@@ -30,6 +30,16 @@ const User = () => {
             Log in / Sign Up!
           </button>
         )}
+      </li>
+      <li>
+        <button
+          className={`w-full px-4 py-2 bg-slate-50 rounded-md hover:font-semibold`}
+          onClick={() => {
+            navigate("/profile");
+          }}
+        >
+          User
+        </button>
       </li>
     </ul>
   );
