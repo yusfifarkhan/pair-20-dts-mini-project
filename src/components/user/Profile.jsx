@@ -10,13 +10,13 @@ const Profile = () => {
         <Link to="/login">
           <ProfileIcon
             name={"Fakhri"}
-            avatar={"https://picsum.photos/300"}
+            avatar={"https://picsum.photos/id/1042/300"}
           />
         </Link>
         <Link to="/login">
           <ProfileIcon
             name={"Yusfi"}
-            avatar={"https://picsum.photos/400"}
+            avatar={"https://picsum.photos/id/1/400"}
           />
         </Link>
         <Link to="/login">
